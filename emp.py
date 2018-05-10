@@ -31,6 +31,7 @@ class Employee:
 
 if __name__ == '__main__':
     print("this is the main program")
+    print("this line of code cannot be executeed when called from another program")
 
 emp1 = Employee('Raigon','Augustin',25,1000,3)
 emp2 = Employee('Test','user',28,3000,23)
