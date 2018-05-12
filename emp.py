@@ -4,8 +4,8 @@ Created on Mon Apr 30 12:43:08 2018
 
 @author: I323327
 """
-import configparser
-import os
+#import configparser
+#import os
 
 class Employee:
     def __init__(self,fname,lname,age,pay,grade):
