@@ -16,18 +16,18 @@ class Employee:
         self.grade = grade
         self.employee_dir = "Employess"
         
-        if not os.path.exists(self.employee_dir):
-            os.makedirs(self.employee_dir)
+        #if not os.path.exists(self.employee_dir):
+            #os.makedirs(self.employee_dir)
             
         
-        self.config = configparser.RawConfigParser()
-        self.config.read('model.properties')
+        #self.config = configparser.RawConfigParser()
+        #self.config.read('model.properties')
 
     
     def yearly_salary(self):
         yslry = self.pay * 12
         return yslry
-        1
+        
 
 if __name__ == '__main__':
     print("this is the main program")
