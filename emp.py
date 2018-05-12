@@ -54,5 +54,9 @@ emp2 = Employee('Test','user',28,2000,23)
 #print(emp2)
 
 
+
 print(emp2.yearly_salary())
 print(emp1.email_add)
+
+print(emp1.grade)
+
